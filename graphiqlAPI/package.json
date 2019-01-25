@@ -1,0 +1,25 @@
+{
+  "name": "graphiqlapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node server.js"
+  },
+  "author": "shubham-shinde",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-node5": "^12.0.1",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "faker": "^4.1.0",
+    "graphiql": "^0.12.0",
+    "graphql": "^14.1.1",
+    "lodash": "^4.17.11",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.4",
+    "nodemon": "^1.18.9",
+    "sequelize": "^4.42.0"
+  }
+}
